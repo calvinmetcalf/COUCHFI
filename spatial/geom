@@ -1,0 +1,6 @@
+function(doc){
+        emit({
+        type: "Point",
+        coordinates: [doc.geometry]
+        }, [doc._id, doc.point.loc]);
+            }
