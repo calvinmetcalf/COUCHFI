@@ -22,7 +22,7 @@ return false;
 }
 function doStuff(d){
 j.addData(d.rows[0].value.geometry);
-m.setView([d.rows[0].value.geometry.coordinates[1],d.rows[0].value.geometry.coordinates[0]],16);
+m.setView([d.rows[0].value.geometry.coordinates[1],d.rows[0].value.geometry.coordinates[0]],18);
 }
 $("#resetMAC").click(rmac)
 
